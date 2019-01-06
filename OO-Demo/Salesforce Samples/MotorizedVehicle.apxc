@@ -1,0 +1,15 @@
+public abstract class MotorizedVehicle {
+	protected String vehicleName;
+	protected Integer numberOfCylinders;
+	protected Integer engineSizeLiters;
+	protected String fuelType;
+	protected Integer numberOfWheels;
+	protected boolean engineRunning;
+	
+	public abstract void startEngine();
+	public abstract void drive();
+	public abstract void reverse();
+	public abstract void park();
+	public abstract void stop();
+	public abstract void stopEngine();
+}
