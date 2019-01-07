@@ -1,0 +1,10 @@
+public class BankAccountExample {
+	private Integer balance = 0;
+	public void updateBalance(String uid, Integer newBalance) {
+		System.debug('Updating balance - logging to audit table with Balance of '+newBalance+' and '+ uid +' made the change');
+	}
+	public void updateBalance() {
+		// Maybe some database insert or update goes here?
+		System.debug('Blind balance update - no idea why or who');
+	}
+}

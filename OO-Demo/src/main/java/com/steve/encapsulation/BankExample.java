@@ -11,7 +11,7 @@ public class BankExample {
 }
 
 class Account{
-	int balance = 123;
+	int balance = 0;
 	public void updateBalance(String uid, int newBalance) {
 		System.out.println("Updating balance - logging to audit table with newBalance and User that made the change");
 	}

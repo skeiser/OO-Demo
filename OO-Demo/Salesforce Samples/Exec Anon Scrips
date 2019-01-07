@@ -1,0 +1,3 @@
+    BankAccountExample bae = new BankAccountExample();
+    //bae.balance = 100000;
+    bae.updateBalance('skeiser', 100000);
