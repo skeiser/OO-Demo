@@ -2,7 +2,7 @@ package com.steve.inheritance;
 
 public abstract class Car extends MotorizedVehicle {
 
-		
+	
 	@Override
 	public void stop() {
 		System.out.println(vehicleName + " stepping on brake, stopped");
