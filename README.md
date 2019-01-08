@@ -8,17 +8,20 @@ We are going to be talking about 4 different principles (Stool Legs) of OO Progr
     - Properties modified by internal controlling methods
 
 - Abstraction
+    - Hiding more complicated functionality
+    - What the object does, not how it does it
+    - Way of dealing with ideas rather than events
+
 - Inheritance
+    - Classes inheriting attributes and methods from parent classes
+    - Implementing interfaces
 - Polymorphism
+    - Static polymorphism - Method overloading
+    - Dynamic polymorphism - Method overriding
 
 
-Objects capture state and behavior
 
-Abstract classes and interfaces
-
-References same class, base class and interface
-
-Overloading(compile time polymorphism) , overriding(run time polymorphism)
+## Additional reading
 
 # SOLID 
 - Single Responsibility Principle(SRP)
@@ -46,15 +49,11 @@ Software entities should be open for extension, but closed for modification -- W
 
 # Dependency Inversion Principle
 
-- Strategy Pattern
-
-
-Cohesion
-Coupling
+- High-level modules should not depend on low-level modules. Both should depend on abstractions.
 
 
 
-Testing on OO
+
 
 
 
