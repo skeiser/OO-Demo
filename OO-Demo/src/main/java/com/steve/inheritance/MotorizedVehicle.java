@@ -38,7 +38,7 @@ public abstract class MotorizedVehicle {
 
 	}
 	
-	public void doMaintenance(FuelType f) {
+	public void doMaintenance(int f) {
 		System.out.println(vehicleName + " Pull out your hammer and give it a big smack. You're good to go");
 		
 	}
